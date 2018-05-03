@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>jQuery Template</title>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery Template</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+</head>
+
+<style>
+  .navbar {
+    margin: 0px;
+
+  }
+
+  #home {
+   font-family: Dosis;
+    background-size: cover;
+       background: linear-gradient(rgba(0, 0, 255, 0.5),
+        rgba(255, 0, 255, 0.75)),
+        url(../images/background.jpg) no-repeat center;
+        background-size: cover;
+    color: white;
     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-
-  </head>
-  
-  <style>
-
-    #home {
-      font-family: Dosis;
-      background-size: cover;
-      color: white;
-    }
+  }
 
   #home {
     font-family: Dosis;
@@ -75,17 +85,17 @@
 
   @media (min-width: 1200px) {
     h1 {
-        font-family: Dosis;
-        text-align: center;
-        margin-bottom: 50px;
-        color: white;
+      font-family: Dosis;
+      text-align: center;
+      margin-bottom: 50px;
+      color: white;
       font-size: 75px;
     }
     h3 {
-        font-family: Dosis;
-        color: black;
-        text-align: center;
-        color: white;
+      font-family: Dosis;
+      color: black;
+      text-align: center;
+      color: white;
       font-size: 45px;
     }
   }
@@ -117,20 +127,20 @@
     text-align: center;
   }
 </style>
-  
-  <body>
-    
-    <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">How to Draw</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+        <a class="navbar-brand" href="#">How to Draw</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
 
         <ul class="nav navbar-nav">
           <li class="active"><a href="home.html">Home</a></li>
@@ -140,11 +150,13 @@
           <li><a href="body.html">Body</a></li>
           <li><a href="other-tips.html">Other Tips</a></li>
           <li><a href="why-we-draw.html">Why We Draw</a></li>
+<li><a href="bonus-content.html">Bonus Content </a> </li>
         </ul>
 
+      </div>
     </div>
-  </div>
-</nav>
-  
-  </body>
+  </nav>
+
+</body>
+
 </html>
